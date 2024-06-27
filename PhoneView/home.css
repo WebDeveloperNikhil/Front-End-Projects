@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(72, 63, 63);
+}
+.container {
+  height: 600px;
+  width: 300px;
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 1px solid rgb(8, 8, 8);
+  background-image: url(./Images/background.jpg);
+  background-size: cover;
+}
+.network {
+  height: 40px;
+  width: 100%;
+  /* background-color: red; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: end;
+}
+.apps {
+  height: 200px;
+  width: 100%;
+  /* background-color: red; */
+  margin: auto;
+  margin-top: 50%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+}
+.app1 {
+  height: 50px;
+  aspect-ratio: 1;
+  /* background-color: blue; */
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.icon1 {
+  height: 30px;
+  width: 40px;
+  /* background-color: blue; */
+  margin: 2px 2px;
+}
+.icon1 img {
+  height: 30px;
+  width: 30px;
+}
+.icon1 .signal {
+  height: 15px;
+  width: 20px;
+  margin-top: 7px;
+  margin-left: 15px;
+}
+.weater {
+  height: 200px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+}
+.weater .time {
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+}
+.weater .weather {
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: end;
+}
+.weather img {
+  height: 30px;
+  aspect-ratio: 1;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.time h1 {
+  font-size: 40px;
+  margin-left: 20px;
+}
+.time p {
+  font-size: 12px;
+  margin-left: 25px;
+}
